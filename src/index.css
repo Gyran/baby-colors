@@ -1,9 +1,12 @@
 body {
   margin: 0;
+  overflow: hidden;
 }
 
 button {
   width: 100vw;
   height: 100vh;
   border: 0;
+  font-size: 24px;
+  font-weight: 600;
 }

@@ -18,15 +18,17 @@ const INITIAL_COLOR = randomColor();
 const App: React.FC = () => {
   const [backgroundColor, setBackgroundColor] = useState(INITIAL_COLOR);
 
-  const handleClick = useCallback(() => {
-      setBackgroundColor(randomColor())
+  const handleTouchStart = useCallback((event) => {
+    setBackgroundColor(randomColor())
   }, [setBackgroundColor]);
 
   return (
-    <button style={{
-      backgroundColor,
-    }}
-    onClick={handleClick}>
+    <button 
+      style={{
+        backgroundColor,
+      }}
+      onTouchStart={handleTouchStart}
+    >
       Baby colors
     </button>
   );
