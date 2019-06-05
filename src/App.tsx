@@ -1,24 +1,12 @@
 import React, {useState, useCallback} from 'react';
 
-const HEX_MIN = 0;
-const HEX_MAX = 255;
-const randomHex = (): string => {
-  return (Math.floor(Math.random() * HEX_MAX) + HEX_MIN).toString(16);
-}
-const randomColor = (): string => {
-  const r = randomHex();
-  const g = randomHex();
-  const b = randomHex();
-
-  return `#${r}${g}${b}`;
-}
-
-const INITIAL_COLOR = randomColor();
+const INITIAL_COLOR = 'white';
 
 const App: React.FC = () => {
   const [backgroundColor, setBackgroundColor] = useState(INITIAL_COLOR);
 
-  const handleTouchStart = useCallback((event) => {
+  const handleTouchStart = useCallback(async () => {
+    const { randomColor } = await import('./randomColor');
     setBackgroundColor(randomColor())
   }, [setBackgroundColor]);
 
