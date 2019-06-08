@@ -19,6 +19,6 @@ action "Deploy" {
   needs = "Install"
   secrets = ["GITHUB_TOKEN"]
   env = {
-    BUILD_DIR = "build/
+    BUILD_DIR = "build/"
   }
 }
