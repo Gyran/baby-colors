@@ -17,7 +17,7 @@ const App: React.FC = () => {
       }}
       onTouchStart={handleTouchStart}
     >
-      Baby colors
+      Baby colors testing
     </button>
   );
 }
