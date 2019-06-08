@@ -1,6 +1,6 @@
 workflow "Publish GH pages on push" {
-  resolves = ["Deploy"]
   on = "push"
+  resolves = ["Deploy"]
 }
 
 action "Install" {
@@ -13,4 +13,8 @@ action "Deploy" {
   args = "run deploy"
   needs = "Install"
   secrets = ["GITHUB_TOKEN"]
+  env = {
+    GIT_AUTHOR_NAME = "Gustav Ahlberg"
+    GIT_AUTHOR_EMAIL = "Gustav.Ahlberg@gmail.com"
+  }
 }
