@@ -15,12 +15,10 @@ action "Install" {
 }
 
 action "Deploy" {
-  uses = "actions/npm@59b64a598378f31e49cb76f27d6f3312b582f680"
-  args = "run deploy"
+  uses = "gr2m/ghpages@master"
   needs = "Install"
   secrets = ["GITHUB_TOKEN"]
   env = {
-    GIT_AUTHOR_NAME = "Gustav Ahlberg"
-    GIT_AUTHOR_EMAIL = "Gustav.Ahlberg@gmail.com"
+    BUILD_DIR = "build/
   }
 }
