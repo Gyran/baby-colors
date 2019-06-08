@@ -22,7 +22,7 @@ action "Build" {
 
 action "Deploy" {
   uses = "gr2m/ghpages@master"
-  needs = "Install"
+  needs = "Build"
   secrets = ["GITHUB_TOKEN"]
   env = {
     BUILD_DIR = "build/"
