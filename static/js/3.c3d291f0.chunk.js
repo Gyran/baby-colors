@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{15:function(n,r,e){"use strict";e.r(r),e.d(r,"randomColor",function(){return a});var o=["red","darkred","pink","hotpink","orange","gold","yellow","purple","magenta","indigo","lime","green","darkgreen","olive","teal","cyan","lightblue","blue","navy","brown","maroon","tan","white","silver","gray","black"],a=function(){var n=Math.floor(Math.random()*o.length);return o[n]}}}]);
+//# sourceMappingURL=3.c3d291f0.chunk.js.map

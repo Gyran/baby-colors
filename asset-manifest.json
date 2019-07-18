@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/baby-colors/static/css/main.3a9c227c.chunk.css",
+    "main.js": "/baby-colors/static/js/main.91ae9b29.chunk.js",
+    "main.js.map": "/baby-colors/static/js/main.91ae9b29.chunk.js.map",
+    "runtime~main.js": "/baby-colors/static/js/runtime~main.ab768cc1.js",
+    "runtime~main.js.map": "/baby-colors/static/js/runtime~main.ab768cc1.js.map",
+    "static/js/2.5d907561.chunk.js": "/baby-colors/static/js/2.5d907561.chunk.js",
+    "static/js/2.5d907561.chunk.js.map": "/baby-colors/static/js/2.5d907561.chunk.js.map",
+    "static/js/3.c3d291f0.chunk.js": "/baby-colors/static/js/3.c3d291f0.chunk.js",
+    "static/js/3.c3d291f0.chunk.js.map": "/baby-colors/static/js/3.c3d291f0.chunk.js.map",
+    "index.html": "/baby-colors/index.html",
+    "precache-manifest.5766b07d9897159434a08caa8bcf4686.js": "/baby-colors/precache-manifest.5766b07d9897159434a08caa8bcf4686.js",
+    "service-worker.js": "/baby-colors/service-worker.js",
+    "static/css/main.3a9c227c.chunk.css.map": "/baby-colors/static/css/main.3a9c227c.chunk.css.map"
+  }
+}
