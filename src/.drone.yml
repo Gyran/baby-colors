@@ -1,0 +1,9 @@
+kind: pipeline
+name: Deploy to github pages
+
+steps:
+- name: github pages
+  image: node
+  commands:
+  - npm install
+  - npm run deploy
